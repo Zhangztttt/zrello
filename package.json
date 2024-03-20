@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueup/vue-quill": "^1.2.0",
+    "bcrypt": "^5.1.1",
+    "ipx": "^3.0.1",
+    "next-auth": "^4.21.1",
+    "nuxt": "^3.10.3",
+    "stripe": "^14.21.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxt/ui": "^2.14.2",
+    "@sidebase/nuxt-auth": "^0.7.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
+    "js": "^0.1.0",
+    "mongoose": "^8.2.2",
+    "nuxt-server-utils": "^0.0.7",
+    "zod": "^3.22.4"
+  }
+}
